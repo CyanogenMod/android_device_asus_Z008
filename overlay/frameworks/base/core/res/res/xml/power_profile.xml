@@ -38,12 +38,6 @@
         <value>1666000</value>
         <value>1750000</value>
         <value>1833000</value>
-        <value>1916000</value>
-        <value>2000000</value>
-        <value>2083000</value>
-        <value>2166000</value>
-        <value>2250000</value>
-        <value>2333000</value>
     </array>
     <item name="cpu.idle">8</item>
     <item name="cpu.awake">21</item>
