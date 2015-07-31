@@ -217,7 +217,7 @@ TARGET_PROVIDES_LIBLIGHT := true
 
 # Radio
 BOARD_RIL_SUPPORTS_MULTIPLE_CLIENTS := true
-BOARD_RIL_CLASS := ../../../device/asus/Z00A/ril
+BOARD_RIL_CLASS := ../../../device/asus/Z008/ril
 
 # Use the non-open-source parts, if they're present
 -include vendor/asus/Z008/BoardConfigVendor.mk
