@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 
-#set -e
+set -e
 
 export DEVICE=Z008
 export VENDOR=asus
-./../mofd-common/extract-files.sh $@
+./../../$VENDOR/mofd-common/extract-files.sh $@

@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/sh
 
-DEVICE=Z008
-VENDOR=asus
+set -e
 
-./../mofd-common/setup-makefiles.sh $@
-
+export DEVICE=Z008
+export VENDOR=asus
+./../../$VENDOR/mofd-common/setup-makefiles.sh $@
