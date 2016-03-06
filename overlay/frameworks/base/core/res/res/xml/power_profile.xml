@@ -42,23 +42,23 @@
     <item name="cpu.idle">7.6</item>
     <item name="cpu.awake">25</item>
     <array name="cpu.active">
-        <value>143</value>
-        <value>167</value>
-        <value>192</value>
-        <value>207</value>
-        <value>227</value>
-        <value>257</value>
-        <value>285</value>
-        <value>307</value>
-        <value>333</value>
-        <value>335</value>
-        <value>350</value>
-        <value>365</value>
-        <value>386</value>
-        <value>390</value>
-        <value>410</value>
-        <value>423</value>
-        <value>430</value>
+        <value>9</value>    <!--  500 -->
+        <value>10</value>
+        <value>12</value>   <!--  666 -->
+        <value>13</value>
+        <value>14</value>   <!--  833 -->
+        <value>17</value>
+        <value>18</value>   <!-- 1000 -->
+        <value>19</value>
+        <value>21</value>   <!-- 1166 -->
+        <value>27</value>
+        <value>31</value>   <!-- 1333 -->
+        <value>35</value>
+        <value>39</value>   <!-- 1500 -->
+        <value>42</value>
+        <value>45</value>   <!-- 1666 -->
+        <value>50</value>
+        <value>54</value>   <!-- 1833 -->
     </array>
     <item name="battery.capacity">3000</item>
     <array name="camera.mode">
