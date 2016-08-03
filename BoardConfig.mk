@@ -20,6 +20,10 @@
 # Charger
 BOARD_HEALTHD_CUSTOM_CHARGER_RES := device/asus/Z008/charger/images
 
+# Mkbootimg
+BOARD_BOOT_KEY := device/asus/Z008/keys/boot_z008.sig
+BOARD_RECOVERY_KEY := device/asus/Z008/keys/recovery_z008.sig
+
 # Partitions
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12478019584
 
