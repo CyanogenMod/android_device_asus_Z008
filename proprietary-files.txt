@@ -3,4 +3,4 @@ etc/firmware/BCM4335C0_003.001.009.0105.0562_Asus_ZE550ML.hcd
 
 # Camera
 lib/hw/camera.mofd_v1.so:lib/hw/camera.vendor.mofd_v1.so
-
+lib/hw/m10mo/camera.m10mo.so
