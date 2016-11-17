@@ -26,6 +26,10 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xhdpi-2048-dalvi
 # call hwui memory config
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
+# Boot image Signature
+PRODUCT_COPY_FILES += \
+    device/asus/Z008/keys/boot_z008.sig:install/bin/boot.sig
+
 # Ramdisk config of governors
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.sys.perf.device.powersave=1250000 \
