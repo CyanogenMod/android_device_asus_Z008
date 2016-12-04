@@ -30,12 +30,6 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui
 PRODUCT_COPY_FILES += \
     device/asus/Z008/keys/boot_z008.sig:install/bin/boot.sig
 
-# Ramdisk config of governors
-ADDITIONAL_DEFAULT_PROPERTIES += \
-    ro.sys.perf.device.powersave=1250000 \
-    ro.sys.perf.device.full=1833000 \
-    ro.sys.perf.device.touchboost=1500000
-
 DEVICE_PACKAGE_OVERLAYS := \
     device/asus/Z008/overlay
 
